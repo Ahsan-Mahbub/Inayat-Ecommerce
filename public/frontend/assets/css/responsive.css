@@ -1,0 +1,217 @@
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+    .main-nav .site-navigation {
+        padding: 0px 10px 0px 10px;
+    }
+    .main-nav .site-navigation .navbar-brand img {
+        height: 80px;
+    }
+
+    .header-navigation-area {
+        display: none;
+    }
+    .header .header-top .header-top-right {
+        text-align: center;
+    }
+    .site-menu-wrap {
+        z-index: 9999;
+        position: fixed;
+        background: #f1f1f1;
+        top: 0;
+        left: -800px;
+        width: 95%;
+        height: 100%;
+        border-radius: 5px;
+        transition: all 500ms ease-in-out;
+        padding: 80px 60px;
+    }
+    .mobile-menu {
+        display: block !important;
+    }
+    .desk-menu {
+        display: none !important;
+    }
+    .footer .footer-item {
+        position: relative;
+        padding: 10px 20px;
+    }
+    .banner-image {
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .product-details-section .product-thumbnail {
+        width: auto;
+    }
+    .header_search {
+        padding: 0px 0 10px;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .hero-section {
+        padding-top: 130px;
+    }
+    .for-mobile-menu {
+        display: block !important;
+    }
+    .for-tab-menu {
+        display: none !important;
+    }
+    .padding-100-20 {
+        padding: 150px 0px 20px 0px;
+    }
+
+    .header-cart-mobile{
+        display: block!important;
+        margin-right: 10px;
+    }
+    .header-cart-large-medium{
+        display: none;
+    }
+    .space-image .space-first-image {
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-nav .site-navigation .navbar-brand img {
+        height: 55px;
+        width: auto;
+        padding: 0px;
+        margin: 5px 0px;
+    }
+    #feature-top {
+        margin: 50px 0px 20px;
+    }
+    .footer-widget .footer-social ul li {
+        display: inline-block;
+    }
+    .line-footer {
+        display: none;
+    }
+
+    .mobile-menu-trigger {
+        display: block;
+    }
+    .site-menu-wrap {
+        display: none;
+    }
+    .header-breadcrumb {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+    }
+    .flaticon-angle-arrow-down {
+        display: none;
+    }
+    .nav-item.has-children .dropdown .nav-item a {
+        color: #fff;
+        padding: 13px 0px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .slicknav_nav ul {
+        width: 100%;
+    }
+    .slicknav_nav .has-children ul li {
+        padding-left: 25px;
+    }
+
+    .nav-item.has-children .dropdown .nav-item a:hover {
+        margin-left: 0px;
+    }
+
+    .header-navigation-area {
+        display: none;
+    }
+    .mobile-menu-trigger {
+        display: block;
+    }
+    .header .header-top .header-top-right {
+        text-align: center;
+    }
+    .toggle-image {
+        display: block;
+    }
+    .pc-image {
+        display: none;
+    }
+    .cat_menu {
+        display: none !important;
+    }
+    .mobile-category {
+        display: block;
+    }
+    .header_search {
+        width: 50%;
+        margin-left: 0px;
+    }
+    .header_search .header_search_content {
+        position: static;
+        display: block;
+        float: none;
+        border-radius: 10px;
+        padding: 3px 3px 4px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+    }
+    .for-mobile-menu {
+        display: none;
+    }
+    .for-tab-menu {
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header_main .header_extra {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+    .table-responsive {
+        display: inline-table;
+    }
+    .brand-box .pc img {
+        height: 150px;
+        object-fit: cover;
+    }
+    .concern-box .pc img {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 98%;
+    }
+    .category-box-section .col-lg-2 {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+    }
+    .promo-section .col-md-3 {
+        width: auto;
+        flex: auto;
+        max-width: none;
+    }
+    .select-desktop {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 85%;
+    }
+}
